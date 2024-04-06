@@ -1,0 +1,39 @@
+h1{
+color: rgb(232, 218, 87);
+.r_header {
+	display: none;
+	background: #d1b366;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 20;
+	box-shadow: 0 0 7px 0 rgba(19, 2, 20, 0.75);
+
+	overflow: hidden;
+
+	padding: 13px 8px;
+}
+#menu_logo,
+#header_search_btn {
+	position: absolute;
+	top: 9px;
+	cursor: pointer;
+	width: 36px;
+	height: 31px;
+}
+}
+#menu_logo {
+	left: 8px;
+}
+
+.re_header .header_logo img {
+	vertical-align: middle;
+}
+
+.r_header .header_logo a {
+	display: inline-block;
+}
+
